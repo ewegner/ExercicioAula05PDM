@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgClube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bot"/>
+
+    <TextView
+        android:id="@+id/txtClube"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="Botafogo"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/txtPts"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="51"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/txtVitorias"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="15"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/txtEmpates"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="5"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/txtDerrotas"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="5"
+        android:textSize="24dp"/>
+
+
+    <TextView
+        android:id="@+id/txtJogos"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="24"
+        android:textSize="24dp"/>
+
+</LinearLayout>
