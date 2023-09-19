@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CampActivity.class);
         startActivity(intent);
     }
+
+    public void verCores(View view) {
+        Intent intent = new Intent(this, ColorActivity.class);
+        startActivity(intent);
+    }
 }
