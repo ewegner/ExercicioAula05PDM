@@ -6,17 +6,17 @@
 
     <ImageView
         android:id="@+id/imgClube"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:src="@drawable/bot"/>
 
     <TextView
         android:id="@+id/txtClube"
-        android:layout_width="200dp"
+        android:layout_width="160dp"
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:text="Botafogo"
-        android:textSize="24dp"/>
+        android:textSize="16dp"/>
 
     <TextView
         android:id="@+id/txtPts"
@@ -24,7 +24,7 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:text="51"
-        android:textSize="24dp"/>
+        android:textSize="16dp"/>
 
     <TextView
         android:id="@+id/txtVitorias"
@@ -32,7 +32,7 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:text="15"
-        android:textSize="24dp"/>
+        android:textSize="16dp"/>
 
     <TextView
         android:id="@+id/txtEmpates"
@@ -40,7 +40,7 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:text="5"
-        android:textSize="24dp"/>
+        android:textSize="16dp"/>
 
     <TextView
         android:id="@+id/txtDerrotas"
@@ -48,7 +48,7 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:text="5"
-        android:textSize="24dp"/>
+        android:textSize="16dp"/>
 
 
     <TextView
@@ -57,6 +57,6 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:text="24"
-        android:textSize="24dp"/>
+        android:textSize="16dp"/>
 
 </LinearLayout>
